@@ -1,0 +1,196 @@
+	header, section, footer, aside, nav, article, {
+				display: block;}
+			@media screen and (max-width: 1000px) {
+			   #content,
+			   aside {
+			       width: 100%;
+			       padding: 0;
+			   }
+			}
+			* {
+   				box-sizing: border-box;
+			}
+
+			.judul {
+				font-size: 22px;
+				text-align: center;
+				background-color: blue;
+				color: white;
+				padding: 10px;
+				border: 2px solid #000000;
+				border-radius: 5px;
+				box-shadow: 0 5px 5px 5px;
+			}
+
+			body {
+				background-color: #ffffff;
+				font-family: sans-serif;
+				line-height: 1.4em;
+				margin: 0px;
+			}
+
+			.header {
+				width: auto;
+				margin: 0px auto 20px auto;
+			}
+
+			main {
+				padding: 0px;
+   				overflow: auto;
+			}
+
+			header {
+				background-size: cover;
+				display: inline;
+				padding-top: 0px;
+			}
+
+			nav {
+
+				padding: 5px;
+				position: sticky;
+				top: 0;
+				border: 2px solid #000000;
+				border-radius: 5px;
+			}
+
+			nav, footer {
+				clear: both;
+				color: #ffffff;
+				background-color: #00008b;
+				height: 50px;
+			}
+			
+			nav ul {
+				margin: 0px;
+				padding: 5px 5px 5px 40px;
+
+			}
+
+			nav li {
+				display: inline;
+				margin-right: 40px;
+			}
+
+			nav li a {
+				color: #ffffff;
+			}
+
+			#content{
+				float: left;
+				width: 75%;
+				padding: 15px;
+				border-right: 1px solid #eeeeee;
+			}
+
+			.card {
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   				border-radius: 5px;
+   				padding: 15px;
+   				width: auto;
+   				margin-top: 10px;
+			}
+			
+			.pejabat {
+				background-image: url("assets/images/background.jpg");
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				color: white;
+				border-radius: 5px;
+				font-weight: bold;
+			}
+
+			.bupati{
+				float: left;
+				width: 37.5%;
+				margin: 50px;
+				padding-left: 20px;
+				font-weight: bold;
+
+			}
+
+			.wakilbupati{
+				float: left;
+				width: 37.5%;
+				margin: 50px;
+				padding-left: 60px;
+				font-weight: bold;
+			}
+			
+			article {
+				clear: both;
+				overflow: auto;
+				width: 100%;
+			}
+
+			article .visi{
+				text-align: center;
+			}
+
+			article .misi {
+				text-align: center;
+			}
+
+			hgroup {
+				margin: 10px;
+				text-align: center;
+			}
+			
+			aside {
+				float: right;
+				width: 25%;
+				padding: 15px;
+			}
+
+			aside .website-url {
+				padding-top: 5px;
+				color: #c04848;
+			}
+
+			aside .contact-details {
+				padding-top: 5px;
+			}
+
+			aside section a {
+				display: block;
+				padding: 5px;
+				border-bottom: 1px solid #eeeeee;
+				color: #0000ff;
+			}
+
+			aside section a:hover {
+				color: #985d6a;
+				background-color: #efefef;
+			}
+
+			a {
+				color: #000000;
+				text-decoration: none;
+			}
+
+			h1, h2, h3 {
+				font-weight: normal;
+			}
+
+			h2 {
+				margin: 10px 0px 5px 0px;
+				padding: 0px;
+			}
+
+			h3 {
+				margin: 0px 0px 10px 0px;
+				color: #de6581;
+			}
+
+			aside h2 {
+				padding: 30px 0px 10px 0px;
+				color: #de6581;
+			}
+
+			footer {
+				font-size: 18px;
+				padding: 7px 0px 0px 20px;
+				text-align: center;
+				border-radius: 5px;
+			}
